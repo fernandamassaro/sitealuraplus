@@ -1,48 +1,87 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #FFA07A;
+    color: #FF69B4; 
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
 }
 
 header {
-    background-color: #ffcccc;
-    padding: 20px 0;
     text-align: center;
+    padding: 20px 0;
 }
 
-.cover {
-    background-color: #ffe6e6;
-    padding: 40px 0;
-}
-
-.image-container {
+.hero {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 50px 0;
 }
 
-.image-container img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
+.hero-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.content {
-    padding: 40px 0;
+.hero-text {
+    width: 50%;
+}
+
+.imagem-gym {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.quem-somos {
+    background-color: #6d0e0e; 
+    padding: 50px 0;
+}
+
+.quem-somos-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nutri {
+    padding: 50px 0;
+    background-color: #FFC0CB; 
+}
+
+.nutri-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nutri-text {
+    width: 50%;
+}
+
+.nutri-image {
+    width: 30%;
     text-align: center;
+}
+
+.about-text {
+    width: 70%;
+}
+
+.quem-somos-image {
+    width: 30%;
+    text-align: right;
+    display: flex;
 }
 
 footer {
-    background-color: #ffcccc;
-    padding: 20px 0;
     text-align: center;
+    padding: 20px 0;
 }
